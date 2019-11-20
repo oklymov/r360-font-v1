@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'r360';
-  src:  url('fonts/r360.eot?d5tp8h');
-  src:  url('fonts/r360.eot?d5tp8h#iefix') format('embedded-opentype'),
-    url('fonts/r360.ttf?d5tp8h') format('truetype'),
-    url('fonts/r360.woff?d5tp8h') format('woff'),
-    url('fonts/r360.svg?d5tp8h#r360') format('svg');
+  src:  url('fonts/r360.eot?vk2tw2');
+  src:  url('fonts/r360.eot?vk2tw2#iefix') format('embedded-opentype'),
+    url('fonts/r360.ttf?vk2tw2') format('truetype'),
+    url('fonts/r360.woff?vk2tw2') format('woff'),
+    url('fonts/r360.svg?vk2tw2#r360') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ft-collaboration:before {
+  content: "\eb2c";
+}
 .ft-split_view:before {
   content: "\eb2a";
 }
