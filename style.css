@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'r360';
-  src:  url('fonts/r360.eot?3ztbww');
-  src:  url('fonts/r360.eot?3ztbww#iefix') format('embedded-opentype'),
-    url('fonts/r360.ttf?3ztbww') format('truetype'),
-    url('fonts/r360.woff?3ztbww') format('woff'),
-    url('fonts/r360.svg?3ztbww#r360') format('svg');
+  src:  url('fonts/r360.eot?hstjln');
+  src:  url('fonts/r360.eot?hstjln#iefix') format('embedded-opentype'),
+    url('fonts/r360.ttf?hstjln') format('truetype'),
+    url('fonts/r360.woff?hstjln') format('woff'),
+    url('fonts/r360.svg?hstjln#r360') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ft-free-shape:before {
+  content: "\eb2d";
+}
+.ft-material-1:before {
+  content: "\eb2e";
+}
+.ft-material-2:before {
+  content: "\eb31";
+}
+.ft-polygon:before {
+  content: "\eb32";
+}
+.ft-product-1:before {
+  content: "\eb34";
+}
+.ft-product-2:before {
+  content: "\eb35";
+}
+.ft-rectangle:before {
+  content: "\eb36";
+}
+.ft-triangle:before {
+  content: "\eb37";
+}
 .ft-move:before {
   content: "\eb33";
 }
